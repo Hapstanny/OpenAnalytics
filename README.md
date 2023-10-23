@@ -27,12 +27,15 @@
 # Install Required Packages-  
 Below are the key packages required for this app.  You can do pip install them in your environment if these aren't already available.
 
-	from langchain.agents import create_spark_sql_agent,AgentType
-	from langchain.agents.agent_toolkits import SparkSQLToolkit
-	from langchain.chat_models import ChatOpenAI,AzureChatOpenAI
-	from langchain.llms import AzureOpenAI
-	from langchain.utilities.spark_sql import SparkSQL
-	from databricks.connect import DatabricksSession
+	streamlit==1.23.1
+	databricks-connect==13.1.0
+	langchain==0.0.197
+	langchainplus-sdk==0.0.8
+	databricks-sdk==0.1.9
+	pyspark==3.3.0
+
+## Install required packages
+pip install -r ./requirements.txt
 
 # Create Spark Session in Databricks - 
 Invoke remote spark session by passing Databricks cluster URL with host, token and cluster-id details.
