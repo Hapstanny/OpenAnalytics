@@ -1,0 +1,6 @@
+streamlit==1.23.1
+databricks-connect==13.1.0
+langchain==0.0.197
+langchainplus-sdk==0.0.8
+databricks-sdk==0.1.9
+pyspark==3.3.0
