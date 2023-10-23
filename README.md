@@ -71,14 +71,14 @@ Provide user query as input to the agent. Below code has used  [streamlit](https
 
 # Output -
 
-## DDL Operation
+## Single Dataset Processing
 
 ![Alt text](/images/image-1.png)
 
-# Example 2 - 
-
-![Alt text](/images/image-1.png)
-
-# Example 3 - 
+## Processing  Multijoin Query- 
 
 ![Alt text](/images/image-2.png)
+
+## Processing with Multidimensional Schema - 
+
+![Alt text](/images/Multijoin_query.png)
