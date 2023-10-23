@@ -34,8 +34,9 @@ Below are the key packages required for this app.  You can do pip install them i
 	databricks-sdk==0.1.9
 	pyspark==3.3.0
 
-## Install required packages
-pip install -r ./requirements.txt
+You can install them from requirements file
+
+	pip install -r ./requirements.txt
 
 # Create Spark Session in Databricks - 
 Invoke remote spark session by passing Databricks cluster URL with host, token and cluster-id details.
